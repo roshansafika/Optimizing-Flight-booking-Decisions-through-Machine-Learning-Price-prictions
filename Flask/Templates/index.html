@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Price Predictor</title>
+	<link rel="stylesheet" href="../Static/style.css">
+</head>
+<body>
+	<header>
+		<h1>Flight Price Predictor</h1>
+	</header>
+	<main>
+		<form action="predict.html">
+			<label for="departure-airport">Departure Airport:</label>
+			<input type="text" id="departure-airport" name="departure_airport"><br>
+			<label for="arrival-airport">Arrival Airport:</label>
+			<input type="text" id="arrival-airport" name="arrival_airport"><br>
+			<label for="departure-date">Departure Date:</label>
+			<input type="date" id="departure-date" name="departure_date"><br>
+			<label for="return-date">Return Date:</label>
+			<input type="date" id="return-date" name="return_date"><br>
+			<label for="num-passengers">Number of Passengers:</label>
+			<input type="number" id="num-passengers" name="num_passengers" min="1" max="10"><br>
+			<button type="submit">Predict Price</button>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Flight Price Predictor</p>
+	</footer>
+</body>
+</html>
